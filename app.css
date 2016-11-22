@@ -1,0 +1,39 @@
+#chessBoard{
+	display: inline-block;
+	float: left;
+    width: 50%;
+    min-width: 400px;
+}
+
+#chessBoard div .innerSquare{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+#chessBoard .black{
+    background-color: #b58222;
+}
+#chessBoard .silver{
+    background-color: #f0d9b5;
+}
+
+#chessBoard .pieceElem, #removedPiecesDiv img{
+	width: 49px;
+    height: 49px;
+}
+
+#removedPiecesDiv {
+	display: inline-block;
+    width: 50%;
+}
+
+#playerTurnSpan{
+	font: 2em bold;
+}
+
+#checkDiv{
+	color: orangered;
+	font-size: 2em;
+	display: none;
+}
